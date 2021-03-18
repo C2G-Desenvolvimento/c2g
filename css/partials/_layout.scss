@@ -1,0 +1,90 @@
+    .container {
+        max-width: 1440px;
+        min-width: 360px;
+        padding: 0 38px;
+        width: 100%;
+    }
+    
+    #home {
+        margin-top: 207px;
+        color: $white;
+    }
+    
+    #sobre {
+        margin-top: 510px;
+        h1 {
+            color: $roxo;
+        }
+        p {
+            color: $text-gray;
+        }
+        .row svg {
+            width: 736px;
+            margin-left: -215px;
+            @media (max-width: 1200px) {
+                width: 100%;
+                padding-bottom: 53px;
+                margin-left: 0px;
+            }
+        }
+        padding-bottom: 201px;
+    }
+    
+    section {
+        .row .col-12 h1 {
+            color: $white;
+        }
+        .row .col-12 p {
+            color: $white;
+        }
+    }
+    
+    section .contato {
+        margin-top: 132px;
+    }
+    
+    .captcha {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-top: 41px;
+    }
+    
+    @media (max-width: 992px) {
+        .desenho {
+            display: none;
+        }
+        #home {
+            margin-top: 10%;
+            margin-bottom: 80%;
+        }
+        #sobre {
+            margin-top: 40%;
+            margin-bottom: 30%;
+            .video {
+                margin-top: 40%;
+            }
+        }
+    }
+    
+    @media (max-width: 768px) {
+        #home {
+            margin-top: 25%;
+            margin-bottom: 90%;
+        }
+        #sobre {
+            margin-top: 40%;
+            margin-bottom: 50%;
+        }
+    }
+    
+    @media (max-width: 320px) {
+        #home {
+            margin-bottom: 0;
+        }
+        #sobre {
+            margin-top: 25%;
+        }
+    }

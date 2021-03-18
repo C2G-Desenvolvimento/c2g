@@ -1,0 +1,91 @@
+.cards {
+    padding-top: 53px;
+}
+
+.card {
+    margin-top: 53px;
+    background-color: $white;
+    display: flex;
+    flex-direction: row;
+    border-left: 2px solid $white;
+    width: 100%;
+    height: 100%;
+    transition: all .2s;
+    .image-ceo {
+        background-image: url(../../img/time/Eduardo-Maia.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 60vw;
+        height: 100%;
+        @media (max-width: 767px) {
+            display: none;
+        }
+    }
+    .image-adm {
+        background-image: url(../../img/time/Emiliana-Teixeira.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 60vw;
+        height: 100%;
+        @media (max-width: 767px) {
+            display: none;
+        }
+    }
+    .image-com {
+        background-image: url(../../img/time/Thiago-Jordao.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 60vw;
+        height: 100%;
+        @media (max-width: 767px) {
+            display: none;
+        }
+    }
+    .image-jur {
+        background-image: url(../../img/time/Marcos-Aurelio.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 60vw;
+        height: 100%;
+        @media (max-width: 767px) {
+            display: none;
+        }
+    }
+    .content {
+        padding-left: 19px;
+        padding-top: 39px;
+        padding-bottom: 19px;
+        padding-right: 37px;
+        h2,
+        .cargo {
+            color: $roxo;
+        }
+        .cargo {
+            margin-top: 9px;
+        }
+        h2 {
+            font-size: 22px;
+        }
+        p {
+            color: $text-gray;
+            text-align: justify;
+            font-size: 17px;
+            width: 100%;
+            @media (max-width: 475px) {
+                width: 100%;
+            }
+        }
+        .social {
+            margin-top: 28px;
+            width: 27px;
+        }
+    }
+    summary {
+        color: $roxo;
+        font-weight: 700;
+    }
+}

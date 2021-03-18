@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-size: 100%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0 auto
+}
+
+@import './partials/colors';
+@import './partials/background';
+@import './partials/buttons';
+@import './partials/layout';
+@import './partials/modal';
+img,
+svg {
+    display: block;
+    width: 100%
+}
+
+a {
+    text-decoration: none;
+    color: $roxo;
+}
+
+h1 {
+    font-size: 42px;
+    font-weight: 600;
+}
+
+p {
+    margin-top: 35px;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+span {
+    color: $orange;
+}
+
+@import './partials/menu';
+@import './partials/inputs';
+@import './partials/footer';
+@import './partials/embed';
+@import './partials/card';
